@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.home,
+.services,
+.products,
+.sign-up {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.services {
+  background-image: url("/src/img-1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.services > h1 {
+  color: #fff;
+  font-size: 100px;
+  background-position: center;
+
+}
+.services > p {
+  color: #fff;
+  font-size: 30px;
+  background-color: transparent;
+ 
+  padding: 12px 24px;
+  border: 1px solid var(--primary);
+  margin-bottom: 8px;
+  font-weight: bold; /* Increase font weight for better visibility */
+  transition: all 0.3s ease-out;
+}
+.services > p:hover {
+  background-color: #fff;
+  color: #000;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Add text shadow for contrast */
+}
+
+.products {
+  background-image: url("/src/img-2.jpg");
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.sign-up {
+  background-image: url("/src/img-8.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
