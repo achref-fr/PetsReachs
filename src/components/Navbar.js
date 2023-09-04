@@ -32,7 +32,7 @@ function Navbar() {
           <div className='logo-container'>
           <img src='images/logo.png' alt='Logo' className='navbar-logo-img'  style={{ width: '250px', height: 'auto' }} />
           </div>
-            <i class='fab fa-typo3' />
+         
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -45,7 +45,18 @@ function Navbar() {
                 Home
   </Link>*/}
             </li>
-           
+            <li className='nav-item'>
+            <a
+          className='nav-links'
+          onClick={closeMobileMenu}
+          href='https://www.facebook.com/61550281257813'
+          target='_blank'
+          rel='noopener noreferrer'
+          style={{ fontSize: '16px' }} 
+        >Facebook
+          
+        </a>
+        </li>
           </ul>
           {button && <Button buttonStyle='btn--outline' scrollTo='hero-container'>Home</Button>}
         </div>

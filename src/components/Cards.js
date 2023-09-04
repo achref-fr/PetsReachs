@@ -21,13 +21,13 @@ function Cards() {
               text='At Pets Reach, we excel at crafting and launching targeted social media ads that captivate your audience.          
               With creative visuals and compelling ad copy, we showcase your pet business to the right people, driving brand awareness, engagement, and increased visibility in the competitive pet industry.'
               label='Launch Ads'
-              path='/services'
+              path='/'
             />
             <CardItem
               src='images/img-33.jpg'
               text='Our lead generation expertise ensures a steady stream of potential customers for your pet business. Through data-driven strategies, we identify and engage with the most relevant audience, converting them into valuable leads. This approach maximizes your chances of turning leads into loyal, long-term clients.'
               label='Generate Leads'
-              path='/services'
+              path='/'
             />  
             <CardItem
               src='images/img-44.png'
@@ -35,7 +35,7 @@ function Cards() {
 
               '
               label='Book appointements'
-              path='/services'
+              path='/'
             />
           </ul>
          

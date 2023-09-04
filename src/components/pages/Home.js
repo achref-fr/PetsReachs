@@ -5,6 +5,8 @@ import HeroSection from '../HeroSection';
 import Footer from '../Footer';
 import emailjs from '@emailjs/browser';
 import { useForm } from 'react-hook-form';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 function Home() {
   const { register, handleSubmit } = useForm();
 
@@ -19,13 +21,16 @@ function Home() {
     emailjs.send(serviceId, templateId, data, userId)
       .then((response) => {
         console.log("Email sent successfully!", response);
+        toast.success('Your message has been successfully sent!');
       })
       .catch((error) => {
         console.error("Email sending error:", error);
+        toast.error('An error occurred while sending your message.');
       });
   };
   return (
     <>
+     <ToastContainer />
       <HeroSection />
       <Cards />
      
