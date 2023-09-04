@@ -16,10 +16,7 @@
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.8.9",
-<<<<<<< HEAD
     "react-toastify": "^9.1.3",
-=======
->>>>>>> d39febd8682e05d9883e10ee4c77e3723a691b0e
     "redux": "^4.2.0",
     "redux-devtools-extension": "^2.13.9",
     "redux-thunk": "^2.4.1",
